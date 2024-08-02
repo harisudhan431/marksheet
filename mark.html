@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body  onload="loadFormData()">
-    <div class="container border border-warning mt-5" style="background-color:rgb(243, 241, 231)">
+    <div class="container-fluid border border-danger" style="background-color:rgb(243, 241, 231)">
         <!-- <nav class="navbar navbar-light bg-light"> -->
             <div class="container-fluid">
                 <div class="row">
@@ -17,13 +17,13 @@
                     </div>
                     <div class="col-4 text-center">
                         <a class="navbar-logo" href="#">
-                            <img src="hicet (1).jpg" alt="" width="180" height="80" class="d-inline-block align-text-top">
+                            <img src="./file.png" alt="" width="180" height="80" class="d-inline-block align-text-top">
                             
                           </a>
                     </div>
                     <div class="col-4 text-end pt-1">
                         <a class="navbar-QR" href="#">
-                            <img src="or.jpg" alt="" width="120" height="70" class="d-inline-block align-text-top">
+                            <img src="./Untitled 1.png" alt="" width="120" height="70" class="d-inline-block align-text-top">
                             
                           </a>
                     </div>
@@ -33,48 +33,48 @@
           <!-- </nav> -->
            <div class="container-fluid mt-5">
             <p class="h2 text-center">Hindusthan College Of Engineering and Technology</p>
-            <p class="lh-1 text-center text-warning fs-6">Approved by AICTE,New Delhi,Accredited with 'A++' Grade by NACC
+            <p class="lh-1 text-center text-danger fs-6">Approved by AICTE,New Delhi,Accredited with 'A++' Grade by NACC
                 <br>
             (An Autonomous Institution ,Affiliated to Anna University,Chennai)
             <br>
             Valley Campus,Pollachi Highway,Coimbatore-641032</p>
            </div>
 
-           <div class="container mt-4">
+           <div class="container-fluid mt-4">
             <p class="h2 text-center">Annual Statement of Marks</p>
            </div>
-           <div class="container ms-1 me-1">
+           <div class="container-fluid ">
             <div class="row">
                 <div class="col-6 text-center border border-dark">
-                    <p class="h6 text-warning mt-2">Name Of the Candidate</p>
+                    <p class="h6 text-danger mt-2">Name Of the Candidate</p>
                     <p id="candidateName"></p>
                 </div>
                 <div class="col-6 text-center border border-dark">
-                    <p class="h6 text-warning mt-2">Course name with Code</p>
+                    <p class="h6 text-danger mt-2">Course name with Code</p>
                     <p>B.E Computer Science Engineering</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-3 text-center border border-dark">
-                    <p class="h6 text-warning mt-2">Reg.No</p>
+                    <p class="h6 text-danger mt-2">Reg.No</p>
                     <p id="registeredNumber"></p>
                 </div>
                 <div class="col-3 text-center border border-dark">
-                    <p class="h6 text-warning mt-2">Enrollment.No</p>
+                    <p class="h6 text-danger mt-2">Enrollment.No</p>
                     <p id="enrolledNumber"></p>
                 </div>
                 <div class="col-6 text-center border border-dark">
-                    <p class="h6 text-warning mt-2">Authorised Training Center Name</p>
+                    <p class="h6 text-danger mt-2">Authorised Training Center Name</p>
                     <p>Hindusthan College of Engineering and Technology</p>
                 </div>
             </div>
            </div>
-           <div class="container mt-3">
-            <table class="table table-bordered border-dark">
-                <thead class=" text-warning">
+           <!-- <div class="container-fluid  mt-3 "> -->
+            <table class="table table-bordered border-dark mt-4">
+                <thead class=" text-danger">
                   <tr>
                     <th class="col-3 text- p-5" rowspan="2" >Subject Code</th>
-<th class="col-5 text-center p-5" rowspan="2" >Subject Name</th>
+                    <th class="col-5 text-center p-5" rowspan="2" >Subject Name</th>
                     <th class="col-1 text-center p-5" rowspan="2" >Max Marks</th>
                     <th class="col-3 text-center p-5" rowspan="1" colspan="3">Marks Obtained In Figures</th>
                     <th class="col-3 text-center p-5" rowspan="2" >Total in Words</th>
@@ -158,11 +158,11 @@
                   <tr>
                     <td colspan="12" class="ps-5 text-danger">In words   &nbsp&nbsp&nbsp &nbsp:<span id="totalInWords" class="text-dark ps-2"></span></td>
                   </tr>
-                 <tr class="text-center text-warning"> 
+                 <tr class="text-center text-danger"> 
                     <td colspan="2">Month and Year of Examination</td>
                     <td colspan=2">No.of Subject Offered</th>
                     <td colspan="1">Result</td>
-<td colspan="1">Percentage</td>
+                    <td colspan="1">Percentage</td>
                     <td colspan="1">Grade</td>
                   </tr>
                   <tr class="text-center"> 
@@ -174,22 +174,23 @@
                   </tr>
                 
               </table>
-           </div>
+           <!-- </div> -->
 
-           <div class="container mt-5">
+           <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col-6 mt-3">
-                    <p class="text-warning h6">Date :<span class="text-dark" id="date"></span></p>
-                    <p class="text-warning h6">Place :<span class="text-dark">Coimbatore</span></p>
+                    <p class="text-danger h6">Date :<span class="text-dark" id="date"></span></p>
+                    <p class="text-danger h6">Place :<span class="text-dark">Coimbatore</span></p>
                 </div>
                 <div class="col-6 text-end ">
                     <p class="pe-3 lh-2 ">(Signature of Deputy<br>
                         Controller of Examination)</p>
-                        <p class="lh-1 text-warning">Deputy Controller of Examination</p>
+                        <p class="lh-1 text-danger">Deputy Controller of Examination</p>
                 </div>
             </div>
            </div>
-
+           <div class="container text-center">
+           <button type="submit" class="btn btn-primary" onclick="window.print();return false;" [1] >Print</button></div>
     </div>
     <script>
       
@@ -238,7 +239,8 @@
             function numberToWords(num) {
                   const ones = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
                   const tens = ['', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy','Eighty','Ninity'];
-if (num < 20) {
+
+                  if (num < 20) {
                     return ones[num];
                   }
 
